@@ -1,0 +1,29 @@
+.panel-box {
+  box-sizing: border-box;
+  position: relative;
+  border: 2px solid var(--border);
+  border-radius: 10px;
+  background: var(--bg);
+}
+
+.panel {
+  margin: 0;
+  padding: 24px 16px 16px;
+  min-width: 0;
+  color: var(--text);
+  font-family: var(--code);
+}
+
+.panel__legend {
+  position: absolute;
+  top: 0;
+  left: 24px;
+  transform: translateY(-50%);
+  background: var(--bg);
+  font-family: var(--code);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1;
+  color: var(--accent);
+  padding: 0 8px;
+}

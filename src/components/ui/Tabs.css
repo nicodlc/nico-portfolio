@@ -1,0 +1,36 @@
+.tabs {
+  position: absolute;
+  top: 0;
+  left: 24px;
+  display: flex;
+  gap: 12px;
+  transform: translateY(-50%);
+}
+
+.tabs__tab {
+  font-family: var(--code);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1;
+  color: var(--border);
+  background: var(--bg);
+  border: none;
+  padding: 0 6px;
+  margin: 0;
+  cursor: pointer;
+}
+
+.tabs__tab:hover {
+  color: var(--text);
+}
+
+.tabs__tab--active,
+.tabs__tab--active:hover {
+  font-weight: 700;
+  color: var(--text-h);
+}
+
+.tabs__tab:focus-visible {
+  outline: 1px dashed var(--accent);
+  outline-offset: 2px;
+}
