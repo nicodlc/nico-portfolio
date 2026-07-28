@@ -2,15 +2,19 @@
 
 :root {
   --text: #6b6375;
-  --text-h: #08060d;
-  --bg: #252725;
+  --text-h: #291f44;
+  --bg: #1c1b1c;
   --border: #8d9691;
   --border-2: #676e6b;
   --code-bg: #f4f3ec;
   --accent: #aa3bff;
-  --accent-bg: rgba(170, 59, 255, 0.1);
+  --accent-bg: rgb(161, 124, 189);
   --accent-border: rgba(170, 59, 255, 0.5);
   --social-bg: rgba(244, 243, 236, 0.5);
+  --tag-cyan: #6bc8b9;
+  --tag-green: #a6be7f;
+  --tag-red: #f87171;
+  --tag-rose: #d098b2;
   --shadow:
     rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
 
@@ -19,7 +23,7 @@
   --mono: ui-monospace, Consolas, monospace;
   --code: 'Fira Code', monospace;
 
-  font: 18px/145% var(--sans);
+  font: 18px/145% var(--code);
   letter-spacing: 0.18px;
   color-scheme: light dark;
   color: var(--text);
@@ -38,7 +42,7 @@
   :root {
     --text: #9ca3af;
     --text-h: #f3f4f6;
-    --bg: #16171d;
+    --bg: #161516;
     --border: #2e303a;
     --code-bg: #1f2028;
     --accent: #c084fc;
@@ -59,7 +63,6 @@
   max-width: 100%;
   margin: 0 auto;
   text-align: center;
-  border-inline: 1px solid var(--border);
   min-height: 100svh;
   display: flex;
   flex-direction: column;
@@ -72,7 +75,7 @@ body {
 
 h1,
 h2 {
-  font-family: var(--heading);
+  font-family: var(--code);
   font-weight: 500;
   color: var(--text-h);
 }
